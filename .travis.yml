@@ -8,6 +8,11 @@ addons:
     organization: "quentinleroy62-github" # the key of the org you chose at step #3
     token:
       secure: 67364e8161a5316f71aff0b10cf658d8bd78fbb0 # encrypted value of your token
+      
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_AUTH_TOKEN
      
 
 before install:
