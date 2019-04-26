@@ -41,5 +41,5 @@ jobs:
         - curl https://cli-assets.heroku.com/install.sh | sh
         - heroku --version
         - heroku container:login
-        - heroku container:push web --app igci-petclinic
-- heroku container:release web --app igci-petclinic
+        - heroku container:push web --app petclini
+- heroku container:release web --app petclini
