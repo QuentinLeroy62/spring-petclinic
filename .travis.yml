@@ -2,7 +2,17 @@ language: java
 
 jdk: 
   - oraclejdk8
-  
+
+addons:
+  sonarcloud:
+    organization: "sonarcloud_organization_key" # the key of the org you chose at step #3
+    token:
+      secure: 67364e8161a5316f71aff0b10cf658d8bd78fbb0 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
+
+
 before install:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
