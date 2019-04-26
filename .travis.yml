@@ -36,5 +36,5 @@ jobs:
         - heroku --version
         - heroku container:login
         - heroku container:push web --app petclini
-- heroku container:release web --app petclini
+        - heroku container:release web --app petclini
 
