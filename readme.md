@@ -1,3 +1,9 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QuentinLeroy62_spring-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=QuentinLeroy62_spring-petclinic)
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=QuentinLeroy62_spring-petclinic)](https://sonarcloud.io/dashboard?id=QuentinLeroy62_spring-petclinic)
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=QuentinLeroy62_spring-petclinic)
+
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
 ## Understanding the Spring Petclinic application with a few diagrams
